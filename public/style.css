@@ -1,0 +1,96 @@
+#pin {
+    width: 1.2em;
+    height: 1.2em;
+}
+
+#temp {
+    font-weight: 100;
+    font-size: 4em;
+    color: white;
+    border-radius: 0em;
+    font-family: Helvetica, sans-serif;
+}
+
+#sun, #temp{
+    max-width: 100%;
+    height: auto;
+    padding: 0.14em;
+    align-content: center;
+}
+
+.div {
+    align-self: center;
+    margin: auto;
+    max-width: 40%;
+    min-width: max-content;
+    align-self: center;
+    border: 0.09em solid transparent;
+    padding: 0.2em;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 0.9em;
+
+  }
+  .grid-container {
+    display: grid;
+    align-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 9em;
+    grid-gap: 0.3em 1em;
+    
+   
+  }
+
+  .grid{
+      border-color: transparent;
+      background-color: transparent;
+      border-style: solid;
+      border-width: 0.8em;
+      border-radius: 0.4em;
+      height: 6.5em;
+      
+  }
+
+  #locat {
+      font-size: 1.5em;
+      font-weight: 700;
+      color: white;
+      font-family: Helvetica, sans-serif;
+  }
+
+button {
+    padding: 0.5em 2em;
+    border-radius: 0.4em;
+    align-items: center;
+}
+button:hover {
+background-color: skyblue;
+}
+
+input{
+    align-self: center;
+    width: 78%;
+    padding: 0.9em 1.8em;
+    background-color:white;
+    border: white;
+    align-items: center;
+    
+}
+#wind, #press, #humid {
+    font-size: 1.6em;
+    font-family: Helvetica, sans-serif;
+    font-weight: 150;
+}   
+
+.grey{
+    font-family: Helvetica, sans-serif;
+    font-size: 0.96em;
+}
+
+.bg {
+    background-image: url(images/downloadss.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150em;
+}
